@@ -1,0 +1,16 @@
+current directory: /home/alyosha/.rvm/gems/ruby-head/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/home/alyosha/.rvm/rubies/ruby-head/bin/ruby -r ./siteconf20151216-2235-ggvh7z.rb extconf.rb
+
+current directory: /home/alyosha/.rvm/gems/ruby-head/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** Нет правила для сборки цели `clean'.  Останов.
+
+current directory: /home/alyosha/.rvm/gems/ruby-head/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/alyosha/.rvm/gems/ruby-head/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

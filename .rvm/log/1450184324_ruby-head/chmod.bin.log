@@ -1,0 +1,23 @@
+[2015-12-15 23:16:38] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/alyosha/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(7): __rvm_set_executable /home/alyosha/.rvm/rubies/ruby-head/bin/erb /home/alyosha/.rvm/rubies/ruby-head/bin/gem /home/alyosha/.rvm/rubies/ruby-head/bin/irb /home/alyosha/.rvm/rubies/ruby-head/bin/rdoc /home/alyosha/.rvm/rubies/ruby-head/bin/ri /home/alyosha/.rvm/rubies/ruby-head/bin/ruby
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/erb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/gem ]]
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/irb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/rdoc ]]
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/ri ]]
+++ for __file in '"$@"'
+++ [[ -x /home/alyosha/.rvm/rubies/ruby-head/bin/ruby ]]

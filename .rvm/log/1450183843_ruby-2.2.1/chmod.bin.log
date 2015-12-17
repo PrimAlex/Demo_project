@@ -1,0 +1,25 @@
+[2015-12-15 22:58:13] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/alyosha/.rvm/src/ruby-2.2.1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(8): __rvm_set_executable /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/erb /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/gem /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/irb /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/rake /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/rdoc /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/ri /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/ruby
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/erb ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/gem ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/irb ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/rake ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/rdoc ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/ri ]]
++++ for __file in '"$@"'
++++ [[ -x /home/alyosha/.rvm/rubies/ruby-2.2.1/bin/ruby ]]

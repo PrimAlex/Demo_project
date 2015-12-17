@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/alyosha/.rvm/gems/ruby-head/environment" ]]
+then
+  source "/home/alyosha/.rvm/gems/ruby-head/environment"
+  exec rdoc "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/alyosha/.rvm/gems/ruby-head/environment'" >&2
+  exit 1
+fi

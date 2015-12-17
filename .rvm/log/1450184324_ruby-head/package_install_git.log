@@ -1,0 +1,62 @@
+[2015-12-15 22:59:20] requirements_debian_libs_install
+requirements_debian_libs_install () 
+{ 
+    __rvm_try_sudo apt-get --no-install-recommends --yes install "$@" || return $?
+}
+current path: /home/alyosha
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(2): requirements_debian_libs_install git
+++ __rvm_try_sudo apt-get --no-install-recommends --yes install git
+++ typeset -a command_to_run
+++ typeset sudo_path sbin_path missing_paths
+++ command_to_run=("$@")
+++ ((  UID == 0  ))
+++ case "$rvm_autolibs_flag_number" in
+++ is_a_function __rvm_sudo
+++ typeset -f __rvm_sudo
+++ missing_paths=
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\u\s\r\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/local/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\u\s\r\/\l\o\c\a\l\/\s\b\i\n\:* ]]
+++ [[ -n '' ]]
+++ command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ __rvm_sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install git'\'': ' apt-get --no-install-recommends --yes install git
+++ command sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install git'\'': ' apt-get --no-install-recommends --yes install git
+++ sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install git'\'': ' apt-get --no-install-recommends --yes install git
+Чтение списков пакетов…
+Построение дерева зависимостей…
+Чтение информации о состоянии…
+Будут установлены следующие дополнительные пакеты:
+  git-man liberror-perl
+Предлагаемые пакеты:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-bzr git-cvs git-mediawiki git-svn
+НОВЫЕ пакеты, которые будут установлены:
+  git git-man liberror-perl
+обновлено 0, установлено 3 новых пакетов, для удаления отмечено 0 пакетов, и 77 пакетов не обновлено.
+Необходимо скачать 3 230 kБ архивов.
+После данной операции, объём занятого дискового пространства возрастёт на 21,7 MB.
+Получено:1 http://archive.ubuntu.com/ubuntu/ trusty/main liberror-perl all 0.17-1.1 [21,1 kB]
+Получено:2 http://archive.ubuntu.com/ubuntu/ trusty-updates/main git-man all 1:1.9.1-1ubuntu0.1 [698 kB]
+Получено:3 http://archive.ubuntu.com/ubuntu/ trusty-updates/main git i386 1:1.9.1-1ubuntu0.1 [2 511 kB]
+Получено 3 230 kБ за 42с (76,3 kБ/c)
+Выбор ранее не выбранного пакета liberror-perl.
+(Чтение базы данных … на данный момент установлено 167911 файлов и каталогов.)
+Preparing to unpack …/liberror-perl_0.17-1.1_all.deb ...
+Unpacking liberror-perl (0.17-1.1) ...
+Выбор ранее не выбранного пакета git-man.
+Preparing to unpack …/git-man_1%3a1.9.1-1ubuntu0.1_all.deb ...
+Unpacking git-man (1:1.9.1-1ubuntu0.1) ...
+Выбор ранее не выбранного пакета git.
+Preparing to unpack …/git_1%3a1.9.1-1ubuntu0.1_i386.deb ...
+Unpacking git (1:1.9.1-1ubuntu0.1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Настраивается пакет liberror-perl (0.17-1.1) …
+Настраивается пакет git-man (1:1.9.1-1ubuntu0.1) …
+Настраивается пакет git (1:1.9.1-1ubuntu0.1) …

@@ -1,0 +1,15 @@
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/executable-hooks-1.3.2/ext/wrapper_installer
+/home/alyosha/.rvm/rubies/ruby-head/bin/ruby -r ./siteconf20151215-2003-6itc5e.rb extconf.rb
+rdoc 4.2.0
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/executable-hooks-1.3.2/ext/wrapper_installer
+make "DESTDIR=" clean
+make: *** Нет правила для сборки цели `clean'.  Останов.
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/executable-hooks-1.3.2/ext/wrapper_installer
+make "DESTDIR="
+make: Цель `all' не требует выполнения команд.
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/executable-hooks-1.3.2/ext/wrapper_installer
+make "DESTDIR=" install
+make: Цель `install' не требует выполнения команд.

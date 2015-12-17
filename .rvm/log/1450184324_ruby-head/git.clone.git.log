@@ -1,0 +1,6 @@
+[2015-12-15 23:00:05] command
+current path: /home/alyosha/.rvm/src
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(5): command git clone git://github.com/ruby/ruby.git /home/alyosha/.rvm/repos/ruby
+++ git clone git://github.com/ruby/ruby.git /home/alyosha/.rvm/repos/ruby
+Cloning into '/home/alyosha/.rvm/repos/ruby'...

@@ -1,0 +1,14 @@
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/gem-wrappers-1.2.7/ext/wrapper_generator
+/home/alyosha/.rvm/rubies/ruby-head/bin/ruby -r ./siteconf20151215-1968-18cowng.rb extconf.rb
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/gem-wrappers-1.2.7/ext/wrapper_generator
+make "DESTDIR=" clean
+make: *** Нет правила для сборки цели `clean'.  Останов.
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/gem-wrappers-1.2.7/ext/wrapper_generator
+make "DESTDIR="
+make: Цель `all' не требует выполнения команд.
+
+current directory: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0/gems/gem-wrappers-1.2.7/ext/wrapper_generator
+make "DESTDIR=" install
+make: Цель `install' не требует выполнения команд.

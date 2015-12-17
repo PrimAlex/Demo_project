@@ -1,0 +1,5 @@
+services.addons.mozilla.org:HSTS	1	16785	1481806348279,1,0
+duckduckgo.com:HSTS	1	16785	1481801647191,1,0
+blocklist.addons.mozilla.org:HSTS	1	16785	1481806462827,1,0
+apis.google.com:HSTS	1	16785	1461152041923,1,0
+2542116.fls.doubleclick.net:HSTS	1	16785	1450287237212,1,0

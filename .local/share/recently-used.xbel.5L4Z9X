@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/alyosha/.bashrc" added="2015-12-15T12:47:50Z" modified="2015-12-15T12:49:09Z" visited="2015-12-15T12:47:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-12-15T12:49:09Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alyosha/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/google-chrome-stable_current_i386.deb" added="2015-12-15T13:21:54Z" modified="2015-12-15T13:21:54Z" visited="2015-12-15T13:21:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-12-15T13:21:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alyosha/rails_projects/demo_project/Gemfile" added="2015-12-16T11:17:18Z" modified="2015-12-16T11:17:43Z" visited="2015-12-16T11:17:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-12-16T11:17:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alyosha/rails_projects/demo_project/.gitignore" added="2015-12-16T13:18:30Z" modified="2015-12-16T13:18:30Z" visited="2015-12-16T13:18:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-12-16T13:18:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

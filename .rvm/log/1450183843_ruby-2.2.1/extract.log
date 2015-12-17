@@ -1,0 +1,65 @@
+[2015-12-15 22:54:19] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __tempdir __path __file __return;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$1" "$__tempdir" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$2/${__file}" ]]; then
+                \command \rm -rf "$2/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$2/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/alyosha/.rvm/src
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(3): __rvm_package_extract /home/alyosha/.rvm/archives/ruby-2.2.1.tar.bz2 /home/alyosha/.rvm/tmp/rvm_src_3921
++++ rvm_debug __rvm_package_extract:2: /home/alyosha/.rvm/archives/ruby-2.2.1.tar.bz2 /home/alyosha/.rvm/tmp/rvm_src_3921
++++ ((  0  ))
++++ return 0
++++ typeset __tempdir __path __file __return
++++ __return=0
+++++ TMPDIR=/home/alyosha/.rvm/tmp
+++++ mktemp -d -t rvm-tmp.XXXXXXXXX
++++ __tempdir=/home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0
++++ __rvm_package_extract_run /home/alyosha/.rvm/archives/ruby-2.2.1.tar.bz2 /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0
++++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
++++ __rvm_grep -- --no-same-owner
++++ GREP_OPTIONS=
++++ __rvm_tar --help
++++ command grep -- --no-same-owner
++++ grep -- --no-same-owner
++++ rvm_tar_options=--no-same-owner
++++ [[ -d /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0 ]]
++++ case "$1" in
++++ [[ -n '' ]]
++++ __rvm_tar xjf /home/alyosha/.rvm/archives/ruby-2.2.1.tar.bz2 -C /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0 --no-same-owner
++++ tar xjf /home/alyosha/.rvm/archives/ruby-2.2.1.tar.bz2 -C /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0 --no-same-owner
++++ __rvm_fix_group_permissions /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0/ruby-2.2.1
++++ __rvm_grep g=rw
++++ GREP_OPTIONS=
++++ command grep g=rw
++++ grep g=rw
++++ umask -S
++++ return 1
++++ ((  __return == 0  ))
++++ for __path in '"$__tempdir"/*'
++++ __file=ruby-2.2.1
++++ [[ -n ruby-2.2.1 ]]
++++ [[ -e /home/alyosha/.rvm/tmp/rvm_src_3921/ruby-2.2.1 ]]
++++ command mv -f /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0/ruby-2.2.1 /home/alyosha/.rvm/tmp/rvm_src_3921/
++++ mv -f /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0/ruby-2.2.1 /home/alyosha/.rvm/tmp/rvm_src_3921/
++++ [[ -n /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0 ]]
++++ command rm -rf /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0
++++ rm -rf /home/alyosha/.rvm/tmp/rvm-tmp.2ZMykLra0
++++ return 0

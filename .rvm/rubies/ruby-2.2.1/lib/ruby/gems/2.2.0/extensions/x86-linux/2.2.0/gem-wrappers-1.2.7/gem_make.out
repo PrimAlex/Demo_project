@@ -1,0 +1,10 @@
+/home/alyosha/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20151215-18645-n6hv2m.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** Нет правила для сборки цели `clean'.  Останов.
+
+make "DESTDIR="
+make: Цель `all' не требует выполнения команд.
+
+make "DESTDIR=" install
+make: Цель `install' не требует выполнения команд.

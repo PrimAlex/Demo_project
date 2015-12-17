@@ -1,0 +1,271 @@
+[2015-12-15 23:16:21] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /home/alyosha/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(2): __rvm_make install
+++ make install
+generating i686-linux-fake.rb
+i686-linux-fake.rb updated
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Werror=pointer-arith -Werror=write-strings -Werror=declaration-after-statement -Werror=implicit-function-declaration -Werror=deprecated-declarations -Wno-packed-bitfield-compat -std=iso9899:1999  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS =   -I. -I.ext/include/i686-linux -I./include -I.
+	DLDFLAGS = -Wl,-soname,libruby.so.2.3  -fstack-protector  
+	SOLIBS = -lpthread -ldl -lcrypt -lm  
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+generating enc.mk
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[1]: Цель `enc' не требует выполнения команд.
+make[1]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+making srcs under enc
+make[1]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[1]: Цель `srcs' не требует выполнения команд.
+make[1]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[1]: Цель `./enc/trans' не требует выполнения команд.
+make[1]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+making encs
+make[1]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[1]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+generating makefile exts.mk
+configuring rbconfig/sizeof
+configuring ripper
+configuring socket
+Failed to configure tk. It will not be installed.
+Failed to configure tk/tkutil. It will not be installed.
+make[1]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/array/resize'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/array/resize'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bignum'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bignum'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug-3571'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug-3571'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug-5832'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug-5832'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug_reporter'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/bug_reporter'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/class'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/class'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/debug'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/debug'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/dln/empty'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/dln/empty'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/exception'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/exception'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/fatal'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/fatal'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/file'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/file'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/float'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/float'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/funcall'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/funcall'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/gvl/call_without_gvl'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/gvl/call_without_gvl'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/hash'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/hash'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/iseq_load'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/iseq_load'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/iter'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/iter'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/load/dot.dot'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/load/dot.dot'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/compat'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/compat'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/internal_ivar'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/internal_ivar'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/usr'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/marshal/usr'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/method'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/method'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/notimplement'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/notimplement'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/num2int'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/num2int'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/path_to_class'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/path_to_class'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/popen_deadlock'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/popen_deadlock'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/postponed_job'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/postponed_job'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/printf'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/printf'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/proc'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/proc'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/rational'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/rational'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/recursion'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/recursion'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/foreach'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/foreach'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/numhash'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/numhash'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/update'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/st/update'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/string'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/string'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/struct'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/struct'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/symbol'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/symbol'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/time'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/time'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/tracepoint'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/tracepoint'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/typeddata'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/typeddata'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/-test-/wait_for_single_fd'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/-test-/wait_for_single_fd'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/bigdecimal'
+installing default bigdecimal libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/bigdecimal'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/continuation'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/continuation'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/coverage'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/coverage'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/date'
+installing default date_core libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/date'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/dbm'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/dbm'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest'
+installing digest libraries
+installing default digest libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest/bubblebabble'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest/bubblebabble'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest/md5'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest/md5'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest/rmd160'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest/rmd160'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest/sha1'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest/sha1'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/digest/sha2'
+installing default sha2 libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/digest/sha2'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/etc'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/etc'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/fcntl'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/fcntl'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/fiber'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/fiber'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/fiddle'
+installing default fiddle libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/fiddle'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/gdbm'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/gdbm'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/io/console'
+installing default console libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/io/console'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/io/nonblock'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/io/nonblock'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/io/wait'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/io/wait'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/json'
+installing default libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/json'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/json/generator'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/json/generator'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/json/parser'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/json/parser'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/mathn/complex'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/mathn/complex'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/mathn/rational'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/mathn/rational'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/nkf'
+installing default nkf libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/nkf'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/objspace'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/objspace'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/openssl'
+installing default openssl libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/openssl'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/pathname'
+installing default pathname libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/pathname'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/psych'
+installing default psych libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/psych'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/pty'
+installing default pty libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/pty'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/racc/cparse'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/racc/cparse'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/rbconfig/sizeof'
+linking shared-object rbconfig/sizeof.so
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/rbconfig/sizeof'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/readline'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/readline'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/ripper'
+linking shared-object ripper.so
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/ripper'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/sdbm'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/sdbm'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/socket'
+linking shared-object socket.so
+installing default socket libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/socket'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/stringio'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/stringio'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/strscan'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/strscan'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/syslog'
+installing default syslog libraries
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/syslog'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/thread'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/thread'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/tk'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/tk'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/tk/tkutil'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/tk/tkutil'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head/ext/zlib'
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head/ext/zlib'
+make[2]: Вход в каталог `/home/alyosha/.rvm/src/ruby-head'
+make[2]: `ruby' не требует обновления.
+make[2]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+make[1]: Выход из каталога `/home/alyosha/.rvm/src/ruby-head'
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./i686-linux-fake ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc"
+installing binary commands:   /home/alyosha/.rvm/rubies/ruby-head/bin
+installing base libraries:    /home/alyosha/.rvm/rubies/ruby-head/lib
+installing arch files:        /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/2.3.0/i686-linux
+installing pkgconfig data:    /home/alyosha/.rvm/rubies/ruby-head/lib/pkgconfig
+installing command scripts:   /home/alyosha/.rvm/rubies/ruby-head/bin
+installing library scripts:   /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/2.3.0
+installing common headers:    /home/alyosha/.rvm/rubies/ruby-head/include/ruby-2.3.0
+installing manpages:          /home/alyosha/.rvm/rubies/ruby-head/share/man/man1
+installing extension objects: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/2.3.0/i686-linux
+installing extension objects: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/site_ruby/2.3.0/i686-linux
+installing extension objects: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/vendor_ruby/2.3.0/i686-linux
+installing extension headers: /home/alyosha/.rvm/rubies/ruby-head/include/ruby-2.3.0/i686-linux
+installing extension scripts: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/2.3.0
+installing extension scripts: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/site_ruby/2.3.0
+installing extension scripts: /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/vendor_ruby/2.3.0
+installing extension headers: /home/alyosha/.rvm/rubies/ruby-head/include/ruby-2.3.0/ruby
+installing default gems:      /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0 (build_info, cache, doc, extensions, gems, specifications)
+                              bigdecimal 1.2.7
+                              io-console 0.4.3
+                              json 1.8.3
+                              psych 2.0.16
+                              rdoc 4.2.0
+installing bundle gems:       /home/alyosha/.rvm/rubies/ruby-head/lib/ruby/gems/2.3.0 (build_info, cache, doc, extensions, gems, specifications)

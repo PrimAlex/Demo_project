@@ -1,0 +1,7 @@
+[user]
+	name = PrimAlex
+	email = Lyosha.prim@mail.ru
+[alias]
+	co = checkout
+[core]
+	editor = subl -w

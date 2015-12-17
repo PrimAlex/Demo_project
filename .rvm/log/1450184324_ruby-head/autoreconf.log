@@ -1,0 +1,9 @@
+[2015-12-15 23:11:19] __rvm_autoreconf
+__rvm_autoreconf () 
+{ 
+    \autoreconf "$@" || return $?
+}
+current path: /home/alyosha/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(1): __rvm_autoreconf
+++ autoreconf

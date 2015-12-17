@@ -1,0 +1,10 @@
+[2015-12-15 22:54:23] __rvm_patch
+__rvm_patch () 
+{ 
+    \patch "$@" || return $?
+}
+current path: /home/alyosha/.rvm/src/ruby-2.2.1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(8): __rvm_patch -F 25 -p1 -N -f -i /home/alyosha/.rvm/patches/ruby/2.2.1/fix_installing_bundled_gems.patch
++++ patch -F 25 -p1 -N -f -i /home/alyosha/.rvm/patches/ruby/2.2.1/fix_installing_bundled_gems.patch
+patching file tool/rbinstall.rb

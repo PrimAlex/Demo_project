@@ -1,0 +1,109 @@
+[2015-12-15 22:58:44] requirements_debian_update_system
+requirements_debian_update_system () 
+{ 
+    __rvm_try_sudo apt-get --quiet --yes update || { 
+        \typeset __ret=$?;
+        case ${__ret} in 
+            100)
+                rvm_error "There has been error while updating 'apt-get', please give it some time and try again later.
+404 errors should be fixed for rvm to proceed. Check your sources configured in:
+    /etc/apt/sources.list
+    /etc/apt/sources.list.d/*.list
+"
+            ;;
+        esac;
+        return ${__ret}
+    }
+}
+current path: /home/alyosha
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin
+command(2): requirements_debian_update_system ruby-head
+++ __rvm_try_sudo apt-get --quiet --yes update
+++ typeset -a command_to_run
+++ typeset sudo_path sbin_path missing_paths
+++ command_to_run=("$@")
+++ ((  UID == 0  ))
+++ case "$rvm_autolibs_flag_number" in
+++ is_a_function __rvm_sudo
+++ typeset -f __rvm_sudo
+++ missing_paths=
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\u\s\r\/\s\b\i\n\:* ]]
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/local/sbin ]]
+++ [[ :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alyosha/.rvm/bin: != *\:\/\u\s\r\/\l\o\c\a\l\/\s\b\i\n\:* ]]
+++ [[ -n '' ]]
+++ command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ __rvm_sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ command sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+В кэше http://security.ubuntu.com trusty-security InRelease
+Игн http://archive.canonical.com trusty InRelease
+Игн http://archive.ubuntu.com trusty InRelease
+В кэше http://security.ubuntu.com trusty-security/main i386 Packages
+В кэше http://archive.canonical.com trusty Release.gpg
+Игн http://packages.linuxmint.com rosa InRelease
+Игн http://extra.linuxmint.com rosa InRelease
+Получено:1 http://archive.ubuntu.com trusty-updates InRelease [64,4 kB]
+В кэше http://archive.canonical.com trusty Release
+В кэше http://security.ubuntu.com trusty-security/restricted i386 Packages
+В кэше http://packages.linuxmint.com rosa Release.gpg
+В кэше http://extra.linuxmint.com rosa Release.gpg
+В кэше http://archive.canonical.com trusty/partner i386 Packages
+В кэше http://security.ubuntu.com trusty-security/universe i386 Packages
+В кэше http://security.ubuntu.com trusty-security/multiverse i386 Packages
+В кэше http://packages.linuxmint.com rosa Release
+В кэше http://extra.linuxmint.com rosa Release
+В кэше http://archive.ubuntu.com trusty Release.gpg
+В кэше http://security.ubuntu.com trusty-security/main Translation-en
+Получено:2 http://archive.ubuntu.com trusty-updates/main i386 Packages [644 kB]
+Игн http://archive.canonical.com trusty/partner Translation-en
+В кэше http://security.ubuntu.com trusty-security/multiverse Translation-en
+В кэше http://packages.linuxmint.com rosa/main i386 Packages
+В кэше http://extra.linuxmint.com rosa/main i386 Packages
+В кэше http://security.ubuntu.com trusty-security/restricted Translation-en
+В кэше http://security.ubuntu.com trusty-security/universe Translation-en
+В кэше http://packages.linuxmint.com rosa/upstream i386 Packages
+В кэше http://packages.linuxmint.com rosa/import i386 Packages
+Игн http://extra.linuxmint.com rosa/main Translation-ru_RU
+Игн http://extra.linuxmint.com rosa/main Translation-ru
+Игн http://extra.linuxmint.com rosa/main Translation-en
+Получено:3 http://archive.ubuntu.com trusty-updates/restricted i386 Packages [15,6 kB]
+Получено:4 http://archive.ubuntu.com trusty-updates/universe i386 Packages [333 kB]
+Получено:5 http://archive.ubuntu.com trusty-updates/multiverse i386 Packages [13,2 kB]
+В кэше http://archive.ubuntu.com trusty-updates/main Translation-en
+В кэше http://archive.ubuntu.com trusty-updates/multiverse Translation-en
+В кэше http://archive.ubuntu.com trusty-updates/restricted Translation-en
+В кэше http://archive.ubuntu.com trusty-updates/universe Translation-en
+В кэше http://archive.ubuntu.com trusty Release
+В кэше http://archive.ubuntu.com trusty/main i386 Packages
+Игн http://packages.linuxmint.com rosa/import Translation-ru_RU
+В кэше http://archive.ubuntu.com trusty/restricted i386 Packages
+Игн http://packages.linuxmint.com rosa/import Translation-ru
+В кэше http://archive.ubuntu.com trusty/universe i386 Packages
+Игн http://packages.linuxmint.com rosa/import Translation-en
+В кэше http://archive.ubuntu.com trusty/multiverse i386 Packages
+Игн http://packages.linuxmint.com rosa/main Translation-ru_RU
+Игн http://packages.linuxmint.com rosa/main Translation-ru
+В кэше http://archive.ubuntu.com trusty/main Translation-ru
+Игн http://packages.linuxmint.com rosa/main Translation-en
+В кэше http://archive.ubuntu.com trusty/main Translation-en
+Игн http://packages.linuxmint.com rosa/upstream Translation-ru_RU
+Игн http://packages.linuxmint.com rosa/upstream Translation-ru
+В кэше http://archive.ubuntu.com trusty/multiverse Translation-ru
+Игн http://packages.linuxmint.com rosa/upstream Translation-en
+В кэше http://archive.ubuntu.com trusty/multiverse Translation-en
+В кэше http://archive.ubuntu.com trusty/restricted Translation-ru
+В кэше http://archive.ubuntu.com trusty/restricted Translation-en
+В кэше http://archive.ubuntu.com trusty/universe Translation-ru
+В кэше http://archive.ubuntu.com trusty/universe Translation-en
+Игн http://archive.ubuntu.com trusty/main Translation-ru_RU
+Игн http://archive.ubuntu.com trusty/multiverse Translation-ru_RU
+Игн http://archive.ubuntu.com trusty/restricted Translation-ru_RU
+Игн http://archive.ubuntu.com trusty/universe Translation-ru_RU
+Получено 1 070 kБ за 33с (31,5 kБ/c)
+Чтение списков пакетов…

@@ -1,0 +1,135 @@
+syndaemon: процесс не найден
+/etc/mdm/Xsession: Beginning session setup...
+/etc/mdm/Xsession: 26: /home/alyosha/.profile: [[: not found
+localuser:alyosha being added to access control list
+Сценарий для none запущен из run_im.
+Сценарий для auto запущен из run_im.
+Сценарий для default запущен из run_im.
+Сценарий для none запущен из run_im.
+Сценарий для auto запущен из run_im.
+Сценарий для default запущен из run_im.
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-2CgXmB
+GNOME_KEYRING_PID=1833
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-2CgXmB
+GPG_AGENT_INFO=/run/user/1000/keyring-2CgXmB/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-2CgXmB
+GPG_AGENT_INFO=/run/user/1000/keyring-2CgXmB/gpg:0:1
+SSH_AUTH_SOCK=/run/user/1000/keyring-2CgXmB/ssh
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-2CgXmB
+GPG_AGENT_INFO=/run/user/1000/keyring-2CgXmB/gpg:0:1
+SSH_AUTH_SOCK=/run/user/1000/keyring-2CgXmB/ssh
+
+(cinnamon-settings-daemon:1831): xrandr-plugin-WARNING **: Не удалось применить сохранённую конфигурацию мониторов
+
+ни один из выбранных режимов не совместим с разрешёнными режимами:
+Проверка режимов контроллера ЭЛТ 62
+контроллер ЭЛТ 62: проверка режима 1440x761@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 2560x1600@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 2560x1440@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 2048x1536@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1920x1600@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1920x1080@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1600x1200@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1680x1050@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1400x1050@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1280x1024@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1024x768@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 800x600@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 640x480@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1440x761@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 2560x1600@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 2560x1440@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 2048x1536@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1920x1600@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1920x1080@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1600x1200@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1680x1050@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1400x1050@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1280x1024@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1024x768@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 800x600@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 640x480@60Гц с выходом на 1278x774@60Гц (попытка 1)
+
+=== xinerama setup Configuration ===
+  Clone: false
+  Output: Неизвестный attached to VGA-0
+     status: on
+     width: 1440
+     height: 761
+     rate: 60
+     primary: false
+     position: 0 0
+=== Applying Configuration Configuration ===
+  Clone: false
+  Output: Неизвестный attached to VGA-0
+     status: on
+     width: 1440
+     height: 761
+     rate: 60
+     primary: true
+     position: 0 0
+
+(cinnamon-settings-daemon:1831): Gdk-WARNING **: XSetErrorHandler() called with a GDK error trap pushed. Don't do that.
+
+(cinnamon-settings-daemon:1831): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(cinnamon-settings-daemon:1831): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
+pci id for fd 9: 80ee:beef, driver (null)
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+Window manager warning: Software rendering detected: Gallium 0.4 on llvmpipe (LLVM 3.6, 256 bits)
+
+** (nm-applet:2035): CRITICAL **: nm_secret_agent_register: assertion 'priv->registered == FALSE' failed
+nm-applet-Message: using fallback from indicator to GtkStatusIcon
+Cjs-Message: JS LOG: About to start Cinnamon
+Cjs-Message: JS LOG: ACTIVATING SOFTWARE RENDERING
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Thu Dec 17 2015 15:49:00 GMT+1000 (VLAT)
+
+** (nemo:2034): WARNING **: Can not determine workarea, guessing at layout
+Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
+nm-applet-Message: moving back from GtkStatusIcon to indicator
+Cjs-Message: JS LOG: network applet: Found connection for active
+mintUpdate: процесс не найден
+
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(gnome-terminal:2146): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+pci id for fd 14: 80ee:beef, driver (null)
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+getrlimit(RLIMIT_NOFILE) failed
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400001 (Новая)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[1450331338,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+=== xinerama setup Configuration ===
+  Clone: false
+  Output: Неизвестный attached to VGA-0
+     status: on
+     width: 1440
+     height: 763
+     rate: 60
+     primary: false
+     position: 0 0
+=== Applying Configuration Configuration ===
+  Clone: false
+  Output: Неизвестный attached to VGA-0
+     status: on
+     width: 1440
+     height: 763
+     rate: 60
+     primary: true
+     position: 0 0
+
+(cinnamon-settings-daemon:1831): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
+
+(cinnamon-settings-daemon:1831): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
+
+(cinnamon-settings-daemon:1831): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output

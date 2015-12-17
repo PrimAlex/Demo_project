@@ -259,16 +259,16 @@
     </div>
   </body>
 </html>
-\âDÃ+r      VqL!VqL!;êÜ/       :http://localhost:3000/ necko:classified 1 request-method GET response-head HTTP/1.1 200 OK 
+¢Ö#I+r      Vr¶¯Vr¶¯;ë×|       :http://localhost:3000/ necko:classified 1 request-method GET response-head HTTP/1.1 200 OK 
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 Content-Type: text/html; charset=utf-8
 Etag: W/"b56dd5f9363ed0f7bd4d11c36d9471dd"
 Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: 6d5fa714-b6a0-4af9-a0f6-ad610e54a58b
-X-Runtime: 0.004550
+X-Request-Id: 62808dae-e005-4656-8e3d-fa68a8837b65
+X-Runtime: 0.290562
 Server: WEBrick/1.3.1 (Ruby/2.3.0/2015-12-15)
-Date: Wed, 16 Dec 2015 11:33:53 GMT
+Date: Thu, 17 Dec 2015 13:20:47 GMT
 Content-Length: 14935
  charset UTF-8 uncompressed-len 0   :W

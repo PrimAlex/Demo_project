@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="virtual_root" mtime="1450271910" type="string">
+	<entry name="virtual_root" mtime="1450358411" type="string">
 		<stringvalue>file:///home/alyosha/rails_projects/demo_project</stringvalue>
 	</entry>
-	<entry name="root" mtime="1450271910" type="string">
+	<entry name="root" mtime="1450358411" type="string">
 		<stringvalue>file:///</stringvalue>
 	</entry>
-	<entry name="tree_view" mtime="1450271910" type="bool" value="true"/>
+	<entry name="tree_view" mtime="1450358411" type="bool" value="true"/>
 </gconf>

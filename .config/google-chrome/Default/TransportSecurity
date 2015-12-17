@@ -28,12 +28,12 @@
    },
    "7I+AXP75S5DVItgGv9skSDRtI+4k2o7edYEeA0xGC5Q=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1481894974.734826,
+      "expiry": 1481895405.407073,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1450358974.734829
+      "sts_observed": 1450359405.407079
    },
    "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -55,12 +55,12 @@
    },
    "Ifty0kmGtBkqpzyRNEJ2iccvLpOffAEtEf72UjNCr0U=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1481894976.875023,
+      "expiry": 1481895407.7523,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1450358976.875028
+      "sts_observed": 1450359407.752305
    },
    "NYADXKwtySGRA6XNs2RGYE89mXc9sRev741L2Vxjh7U=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -82,23 +82,23 @@
    },
    "bVzOnu6xyelN8iVLDSbFjyZVgXrXDyLSokjnq2hdUFs=": {
       "dynamic_spki_hashes": [ "sha256/WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=", "sha256/JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg=" ],
-      "dynamic_spki_hashes_expiry": 1450359270.856364,
-      "expiry": 1481894970.856346,
+      "dynamic_spki_hashes_expiry": 1450359701.732639,
+      "expiry": 1481895401.732625,
       "mode": "force-https",
       "pkp_include_subdomains": true,
-      "pkp_observed": 1450358970.856364,
+      "pkp_observed": 1450359401.732639,
       "report-uri": "",
       "sts_include_subdomains": true,
-      "sts_observed": 1450358970.856352
+      "sts_observed": 1450359401.73263
    },
    "kTBZlNzaAygsyUNLLJvF9CS33eqAcPjUb75PGjCOtnM=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1481894974.804737,
+      "expiry": 1481895405.752909,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1450358974.80474
+      "sts_observed": 1450359405.752913
    },
    "kkB5ib/+M7npcrRR7ZcVsOzujXBba6S9s0C/7USAGao=": {
       "dynamic_spki_hashes_expiry": 0.0,

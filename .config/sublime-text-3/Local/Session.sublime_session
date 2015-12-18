@@ -24,18 +24,7 @@
 					"file": "/home/alyosha/rails_projects/demo_project/Gemfile",
 					"settings":
 					{
-						"buffer_size": 1502,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "",
-					"file": "/home/alyosha/GemFile",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 1580,
 						"line_ending": "Unix"
 					}
 				}
@@ -76,6 +65,7 @@
 			],
 			"file_history":
 			[
+				"/home/alyosha/GemFile",
 				"/home/alyosha/rails_projects/demo_project/README.md",
 				"/home/alyosha/rails_projects/demo_project/.gitignore",
 				"/home/alyosha/rails_projects/demo_project/Gemfile"
@@ -119,7 +109,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -128,15 +118,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1502,
+								"buffer_size": 1580,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										1577,
+										1577
 									]
 								],
 								"settings":
@@ -144,35 +134,7 @@
 									"syntax": "Packages/Ruby/Ruby.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/alyosha/GemFile",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 459.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -229,7 +191,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1440,763",
+			"position": "0,1,1,0,0,0,0,0,0,1440,763",
 			"project": "",
 			"replace":
 			{

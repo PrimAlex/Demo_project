@@ -52,7 +52,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/alyosha/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%9F%D1%83%D1%81%D1%82%D0%BE%D0%B9%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82" added="2015-12-17T06:28:41Z" modified="2015-12-17T06:28:41Z" visited="2015-12-17T06:28:41Z">
+  <bookmark href="file:///home/alyosha/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%9F%D1%83%D1%81%D1%82%D0%BE%D0%B9%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82" added="2015-12-17T06:28:41Z" modified="2015-12-18T12:09:48Z" visited="2015-12-17T06:28:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -60,7 +60,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-12-17T06:28:41Z" count="1"/>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2015-12-18T12:09:48Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -52,3 +52,35 @@ git checkout master
 git branch -d modify-README
 git merge modify-README
 subl Gemfile
+subl GemFile
+ruby -v
+subl
+bundle install --without production
+cd rails_projects
+cd demo_project
+bundle install --without production
+git commit -a -m "Update Gemfile.lock for Heroku"
+herouk login
+wet -0- https://toolbelt.herouk.com/install-unbuntu.sh
+wget -0- https://toolbelt.herouk.com/install-unbuntu.sh
+wget -0- https://toolbelt.herouk.com/install-unbuntu.sh | sh
+wget -0- https://toolbelt.heroku.com/install-unbuntu.sh | sh
+wget -0- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget  https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku login
+wget  https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget -- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+herouk login
+heroku login
+cd
+heroku login
+cd rails_project
+cd rails_projects
+heroku login
+cd
+heroku login 
+wget -0- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget -1- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget -10- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget  https://toolbelt.heroku.com/install-ubuntu.sh | sh
+wget -0- https://toolbelt.heroku.com/install-ubuntu.sh | sh

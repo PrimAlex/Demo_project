@@ -8,15 +8,15 @@ localuser:alyosha being added to access control list
 Сценарий для none запущен из run_im.
 Сценарий для auto запущен из run_im.
 Сценарий для default запущен из run_im.
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-sw3GVa
-GNOME_KEYRING_PID=1834
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-sw3GVa
-GPG_AGENT_INFO=/run/user/1000/keyring-sw3GVa/gpg:0:1
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-sw3GVa
-GPG_AGENT_INFO=/run/user/1000/keyring-sw3GVa/gpg:0:1
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-sw3GVa
-GPG_AGENT_INFO=/run/user/1000/keyring-sw3GVa/gpg:0:1
-SSH_AUTH_SOCK=/run/user/1000/keyring-sw3GVa/ssh
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-0TusIo
+GNOME_KEYRING_PID=1835
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-0TusIo
+GPG_AGENT_INFO=/run/user/1000/keyring-0TusIo/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-0TusIo
+GPG_AGENT_INFO=/run/user/1000/keyring-0TusIo/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-0TusIo
+GPG_AGENT_INFO=/run/user/1000/keyring-0TusIo/gpg:0:1
+SSH_AUTH_SOCK=/run/user/1000/keyring-0TusIo/ssh
 
 (cinnamon-settings-daemon:1832): xrandr-plugin-WARNING **: Не удалось применить сохранённую конфигурацию мониторов
 
@@ -77,57 +77,30 @@ pci id for fd 9: 80ee:beef, driver (null)
 libGL error: core dri or dri2 extension not found
 libGL error: failed to load driver: vboxvideo
 Window manager warning: Software rendering detected: Gallium 0.4 on llvmpipe (LLVM 3.6, 256 bits)
-
-** (nm-applet:2035): CRITICAL **: nm_secret_agent_register: assertion 'priv->registered == FALSE' failed
 nm-applet-Message: using fallback from indicator to GtkStatusIcon
 Cjs-Message: JS LOG: About to start Cinnamon
 Cjs-Message: JS LOG: ACTIVATING SOFTWARE RENDERING
 St-Message: cogl npot texture sizes SUPPORTED
-Cjs-Message: JS LOG: Cinnamon started at Thu Dec 17 2015 22:44:09 GMT+1000 (VLAT)
+Cjs-Message: JS LOG: Cinnamon started at Fri Dec 18 2015 17:13:37 GMT+1000 (VLAT)
 
-** (nemo:2034): WARNING **: Can not determine workarea, guessing at layout
+** (nemo:2035): WARNING **: Can not determine workarea, guessing at layout
 Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
 nm-applet-Message: moving back from GtkStatusIcon to indicator
 Cjs-Message: JS LOG: network applet: Found connection for active
-
-(gnome-terminal:2103): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
 mintUpdate: процесс не найден
 
-(mintUpdate.py:2185): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2185): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2185): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2185): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2108): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(gnome-terminal:2158): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
 pci id for fd 14: 80ee:beef, driver (null)
 libGL error: core dri or dri2 extension not found
 libGL error: failed to load driver: vboxvideo
 getrlimit(RLIMIT_NOFILE) failed
 Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400001 (Новая)
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400001 (Новая)
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-getrlimit(RLIMIT_NOFILE) failed
-В текущем сеансе браузера создано новое окно.
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400043 (Новая)
-Window manager warning: Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x3400043 not in stack
-Window manager warning: Log level 16: STACK_OP_LOWER_BELOW: sibling window 0x3400043 not in stack
-
-(cinnamon:2022): Cjs-WARNING **: JS ERROR: TypeError: this.actor is null
-WindowPreview.prototype.hide@/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:186
-TooltipBase.prototype._init/</<@/usr/share/cinnamon/js/ui/tooltips.js:68
-
-getrlimit(RLIMIT_NOFILE) failed
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-В текущем сеансе браузера создано новое окно.
-getrlimit(RLIMIT_NOFILE) failed
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-В текущем сеансе браузера создано новое окно.
-getrlimit(RLIMIT_NOFILE) failed
 getrlimit(RLIMIT_NOFILE) failed

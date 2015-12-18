@@ -29,10 +29,13 @@
 					}
 				},
 				{
-					"file": "/home/alyosha/rails_projects/demo_project/.gitignore",
+					"contents": "",
+					"file": "/home/alyosha/GemFile",
+					"file_size": -1,
+					"file_write_time": -1,
 					"settings":
 					{
-						"buffer_size": 523,
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -73,6 +76,9 @@
 			],
 			"file_history":
 			[
+				"/home/alyosha/rails_projects/demo_project/README.md",
+				"/home/alyosha/rails_projects/demo_project/.gitignore",
+				"/home/alyosha/rails_projects/demo_project/Gemfile"
 			],
 			"find":
 			{
@@ -129,8 +135,8 @@
 								"selection":
 								[
 									[
-										689,
-										689
+										0,
+										0
 									]
 								],
 								"settings":
@@ -146,24 +152,24 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/alyosha/rails_projects/demo_project/.gitignore",
+							"file": "/home/alyosha/GemFile",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 523,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										523,
-										523
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -223,7 +229,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,534,113,1174,593,1440,761",
+			"position": "0,1,0,0,0,0,0,0,0,1440,763",
 			"project": "",
 			"replace":
 			{

@@ -78,4 +78,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/alyosha/rails_projects/test_app/app/models/micropost.rb" added="2015-12-23T10:45:47Z" modified="2015-12-23T10:45:47Z" visited="2015-12-23T10:45:47.534003Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2015-12-23T10:45:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

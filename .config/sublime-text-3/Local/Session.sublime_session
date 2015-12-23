@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/home/alyosha/rails_projects/demo",
 		"/home/alyosha/rails_projects/demo_project"
 	],
 	"last_version": 3083,
@@ -21,10 +22,26 @@
 			"buffers":
 			[
 				{
-					"file": "/home/alyosha/rails_projects/demo_project/Gemfile",
+					"file": "/home/alyosha/rails_projects/demo/Gemfile",
 					"settings":
 					{
 						"buffer_size": 1580,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/alyosha/rails_projects/demo/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1819,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/alyosha/rails_projects/demo/Gemfile.lock",
+					"settings":
+					{
+						"buffer_size": 4086,
 						"line_ending": "Unix"
 					}
 				}
@@ -61,14 +78,17 @@
 			},
 			"expanded_folders":
 			[
-				"/home/alyosha/rails_projects/demo_project"
+				"/home/alyosha/rails_projects/demo_project",
+				"/home/alyosha/rails_projects/demo",
+				"/home/alyosha/rails_projects/demo/config"
 			],
 			"file_history":
 			[
+				"/home/alyosha/rails_projects/Gemfile",
+				"/home/alyosha/rails_projects/demo_project/Gemfile",
 				"/home/alyosha/GemFile",
 				"/home/alyosha/rails_projects/demo_project/README.md",
-				"/home/alyosha/rails_projects/demo_project/.gitignore",
-				"/home/alyosha/rails_projects/demo_project/Gemfile"
+				"/home/alyosha/rails_projects/demo_project/.gitignore"
 			],
 			"find":
 			{
@@ -104,17 +124,20 @@
 			[
 				{
 					"path": "/home/alyosha/rails_projects/demo_project"
+				},
+				{
+					"path": "/home/alyosha/rails_projects/demo"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/alyosha/rails_projects/demo_project/Gemfile",
+							"file": "/home/alyosha/rails_projects/demo/Gemfile",
 							"semi_transient": false,
 							"settings":
 							{
@@ -125,8 +148,8 @@
 								"selection":
 								[
 									[
-										1577,
-										1577
+										1578,
+										1578
 									]
 								],
 								"settings":
@@ -134,10 +157,70 @@
 									"syntax": "Packages/Ruby/Ruby.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 459.0,
+								"translation.y": 408.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/alyosha/rails_projects/demo/config/routes.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1819,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1689,
+										1689
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 549.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/alyosha/rails_projects/demo/Gemfile.lock",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 4086,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
@@ -191,7 +274,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,1,0,0,0,0,0,0,1440,763",
+			"position": "0,1,0,0,0,0,0,0,0,1437,755",
 			"project": "",
 			"replace":
 			{
@@ -225,7 +308,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},

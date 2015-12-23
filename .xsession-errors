@@ -8,21 +8,21 @@ localuser:alyosha being added to access control list
 Сценарий для none запущен из run_im.
 Сценарий для auto запущен из run_im.
 Сценарий для default запущен из run_im.
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-GAH1Rb
-GNOME_KEYRING_PID=1729
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-GAH1Rb
-GPG_AGENT_INFO=/run/user/1000/keyring-GAH1Rb/gpg:0:1
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-GAH1Rb
-GPG_AGENT_INFO=/run/user/1000/keyring-GAH1Rb/gpg:0:1
-GNOME_KEYRING_CONTROL=/run/user/1000/keyring-GAH1Rb
-GPG_AGENT_INFO=/run/user/1000/keyring-GAH1Rb/gpg:0:1
-SSH_AUTH_SOCK=/run/user/1000/keyring-GAH1Rb/ssh
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Cgrp47
+GNOME_KEYRING_PID=1732
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Cgrp47
+GPG_AGENT_INFO=/run/user/1000/keyring-Cgrp47/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Cgrp47
+GPG_AGENT_INFO=/run/user/1000/keyring-Cgrp47/gpg:0:1
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Cgrp47
+GPG_AGENT_INFO=/run/user/1000/keyring-Cgrp47/gpg:0:1
+SSH_AUTH_SOCK=/run/user/1000/keyring-Cgrp47/ssh
 
-(cinnamon-settings-daemon:1726): xrandr-plugin-WARNING **: Не удалось применить сохранённую конфигурацию мониторов
+(cinnamon-settings-daemon:1730): xrandr-plugin-WARNING **: Не удалось применить сохранённую конфигурацию мониторов
 
 ни один из выбранных режимов не совместим с разрешёнными режимами:
 Проверка режимов контроллера ЭЛТ 62
-контроллер ЭЛТ 62: проверка режима 1440x763@60Гц с выходом на 1278x774@60Гц (попытка 0)
+контроллер ЭЛТ 62: проверка режима 1437x755@60Гц с выходом на 1278x774@60Гц (попытка 0)
 контроллер ЭЛТ 62: проверка режима 2560x1600@60Гц с выходом на 1278x774@60Гц (попытка 0)
 контроллер ЭЛТ 62: проверка режима 2560x1440@60Гц с выходом на 1278x774@60Гц (попытка 0)
 контроллер ЭЛТ 62: проверка режима 2048x1536@60Гц с выходом на 1278x774@60Гц (попытка 0)
@@ -35,7 +35,7 @@ SSH_AUTH_SOCK=/run/user/1000/keyring-GAH1Rb/ssh
 контроллер ЭЛТ 62: проверка режима 1024x768@60Гц с выходом на 1278x774@60Гц (попытка 0)
 контроллер ЭЛТ 62: проверка режима 800x600@60Гц с выходом на 1278x774@60Гц (попытка 0)
 контроллер ЭЛТ 62: проверка режима 640x480@60Гц с выходом на 1278x774@60Гц (попытка 0)
-контроллер ЭЛТ 62: проверка режима 1440x763@60Гц с выходом на 1278x774@60Гц (попытка 1)
+контроллер ЭЛТ 62: проверка режима 1437x755@60Гц с выходом на 1278x774@60Гц (попытка 1)
 контроллер ЭЛТ 62: проверка режима 2560x1600@60Гц с выходом на 1278x774@60Гц (попытка 1)
 контроллер ЭЛТ 62: проверка режима 2560x1440@60Гц с выходом на 1278x774@60Гц (попытка 1)
 контроллер ЭЛТ 62: проверка режима 2048x1536@60Гц с выходом на 1278x774@60Гц (попытка 1)
@@ -53,8 +53,8 @@ SSH_AUTH_SOCK=/run/user/1000/keyring-GAH1Rb/ssh
   Clone: false
   Output: Неизвестный attached to VGA-0
      status: on
-     width: 1440
-     height: 763
+     width: 1437
+     height: 755
      rate: 60
      primary: false
      position: 0 0
@@ -62,17 +62,17 @@ SSH_AUTH_SOCK=/run/user/1000/keyring-GAH1Rb/ssh
   Clone: false
   Output: Неизвестный attached to VGA-0
      status: on
-     width: 1440
-     height: 763
+     width: 1437
+     height: 755
      rate: 60
      primary: true
      position: 0 0
 
-(cinnamon-settings-daemon:1726): Gdk-WARNING **: XSetErrorHandler() called with a GDK error trap pushed. Don't do that.
+(cinnamon-settings-daemon:1730): Gdk-WARNING **: XSetErrorHandler() called with a GDK error trap pushed. Don't do that.
 
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+(cinnamon-settings-daemon:1730): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
 
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
+(cinnamon-settings-daemon:1730): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
 pci id for fd 9: 80ee:beef, driver (null)
 libGL error: core dri or dri2 extension not found
 libGL error: failed to load driver: vboxvideo
@@ -80,385 +80,20 @@ Window manager warning: Software rendering detected: Gallium 0.4 on llvmpipe (LL
 Cjs-Message: JS LOG: About to start Cinnamon
 Cjs-Message: JS LOG: ACTIVATING SOFTWARE RENDERING
 St-Message: cogl npot texture sizes SUPPORTED
-Cjs-Message: JS LOG: Cinnamon started at Fri Dec 18 2015 22:09:09 GMT+1000 (VLAT)
+Cjs-Message: JS LOG: Cinnamon started at Wed Dec 23 2015 19:05:09 GMT+1000 (VLAT)
 
-** (nemo:1920): WARNING **: Can not determine workarea, guessing at layout
+** (nemo:1931): WARNING **: Can not determine workarea, guessing at layout
 Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
 Cjs-Message: JS LOG: network applet: Found connection for active
 mintUpdate: процесс не найден
 
-(mintUpdate.py:2096): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2149): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2096): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2149): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2096): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+(mintUpdate.py:2149): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(mintUpdate.py:2096): libglade-WARNING **: unknown attribute `swapped' for <signal>.
-[1450440547,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1371
-     height: 696
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1371
-     height: 696
-     rate: 60
-     primary: true
-     position: 0 0
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1180
-     height: 555
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1180
-     height: 555
-     rate: 60
-     primary: true
-     position: 0 0
+(mintUpdate.py:2149): libglade-WARNING **: unknown attribute `swapped' for <signal>.
 
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1432
-     height: 760
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1432
-     height: 760
-     rate: 60
-     primary: true
-     position: 0 0
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1440
-     height: 758
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1440
-     height: 758
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1440
-     height: 763
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1440
-     height: 763
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1373
-     height: 719
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1373
-     height: 719
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1383
-     height: 729
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1383
-     height: 729
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1392
-     height: 733
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1392
-     height: 733
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1393
-     height: 734
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1393
-     height: 734
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1402
-     height: 738
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1402
-     height: 738
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1411
-     height: 742
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1411
-     height: 742
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1423
-     height: 746
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1423
-     height: 746
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-=== xinerama setup Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1437
-     height: 755
-     rate: 60
-     primary: false
-     position: 0 0
-=== Applying Configuration Configuration ===
-  Clone: false
-  Output: Неизвестный attached to VGA-0
-     status: on
-     width: 1437
-     height: 755
-     rate: 60
-     primary: true
-     position: 0 0
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-
-(cinnamon-settings-daemon:1726): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-pci id for fd 14: 80ee:beef, driver (null)
-libGL error: core dri or dri2 extension not found
-libGL error: failed to load driver: vboxvideo
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5400001 (Новая)
-В текущем сеансе браузера создано новое окно.
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x540003e (Новая)
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x540003e (Новая)
-В текущем сеансе браузера создано новое окно.
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5400040 (Новая)
-В текущем сеансе браузера создано новое окно.
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5400042 (Новая)
-Window manager warning: Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x5400042 not in stack
-Window manager warning: Log level 16: STACK_OP_LOWER_BELOW: sibling window 0x5400042 not in stack
-
-(cinnamon:1908): Cjs-WARNING **: JS ERROR: TypeError: this.actor is null
-WindowPreview.prototype.hide@/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:186
-TooltipBase.prototype._init/</<@/usr/share/cinnamon/js/ui/tooltips.js:68
-
-Window manager warning: Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x5400040 not in stack
-Window manager warning: Log level 16: STACK_OP_LOWER_BELOW: sibling window 0x5400040 not in stack
-Window manager warning: Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x540003e not in stack
-Window manager warning: Log level 16: STACK_OP_LOWER_BELOW: sibling window 0x540003e not in stack
+(gnome-terminal:2193): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3800001 (Новая)
